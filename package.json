@@ -8,7 +8,10 @@
     "test:e2e": "detox test --configuration ios.sim",
     "lint:fix": "eslint --fix .",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "build": "expo build:web",
+        "debug-prod": "expo build:web && npx serve ./web-build",
+        "now-build": "yarn build && expo-optimize"
   },
   "dependencies": {
     "@expo/vector-icons": "^10.2.0",
