@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "OnlyTrust",
+    "slug": "OnlyTrust",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["static-container"]
+        }
+      }
+    },
+    "description": "The iOS and Android app of OnlyTrust LLC.",
+    "githubUrl": "https://github.com/OnlyTrust/onlytrust-app-expo"
+  }
+}

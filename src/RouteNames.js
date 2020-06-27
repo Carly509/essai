@@ -1,0 +1,17 @@
+export default {
+  Dashboard: 'Dashboard',
+  Send: 'Send',
+  Sell: 'Sell',
+  Buy: 'Buy',
+  Receive: 'Receive',
+  CustomLOC: 'CustomLOC',
+  Confirm: 'Confirm',
+  History: 'History',
+  Help: 'Help',
+  Login: 'Login',
+  Registration: 'Registration',
+  Preferences: 'Preferences',
+  Security: 'Security',
+  Notifications: 'Notifications',
+  Privacy: 'Privacy',
+};

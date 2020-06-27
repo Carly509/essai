@@ -1,0 +1,20 @@
+name: "OnlyTrust"
+description: "We will add more to this later"
+author: "https://github.com/OnlyTrust/onlytrust-app-expo"
+
+inputs:
+  PROJECT_NAME: 
+    description: "This project was made by NouKod's Team: Nick Ramaux (project lead), Gilbert Torchon, and Samuel Cornet (QA Automation testing). More is to come."
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
+
+  
+
