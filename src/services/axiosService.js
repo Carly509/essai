@@ -4,7 +4,7 @@ import { Platform } from 'react-native';
 import { store } from '../redux/store';
 
 const axiosOptions = {
-  baseURL: Platform.OS === 'android' ? BACKEND_URL_ANDROID : BACKEND_URL_IOS,
+  baseURL: Platform.OS === 'ios' ? BACKEND_URL_IOS : BACKEND_URL_ANDROID ,
 };
 
 const axiosService = axios.create(axiosOptions);
